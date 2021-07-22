@@ -12,6 +12,7 @@ function esperar2segundos(/* TODO */) {
     setTimeout((/* TODO */) => {
         console.log(3)
         /* TODO */
+        alTerminar()
     }, 2000);
     /* TODO */
 }

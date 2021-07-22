@@ -19,9 +19,9 @@ console.log(1);
     /* TODO */
 }
 
-/* TODO */ function ejecutarMensajes() {
+/* TODO */async function ejecutarMensajes() {
     console.log(2);
-    /* TODO */ esperar2segundos();
+    /* TODO */ await esperar2segundos();
     console.log(5);
 }
 
