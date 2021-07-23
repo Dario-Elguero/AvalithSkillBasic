@@ -9,5 +9,14 @@ let textoCensurado = null;
 
     Reemplazar este comentario con su codigo.
  */
+    textoCensurado=""
+for (let i=0; i < texto.length; i++){
+    
+    if (texto[i] !== " "){
+       textoCensurado += "X"
+    }else{
+        textoCensurado += " "
+    }
+}
 
 console.log(textoCensurado)
